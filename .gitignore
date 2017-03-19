@@ -3,4 +3,4 @@ target/
 *.iws
 .idea/
 classes/
-src/main/java/META-INF/
+src/main/resources/META-INF/
