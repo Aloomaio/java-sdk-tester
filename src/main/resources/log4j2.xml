@@ -5,14 +5,8 @@
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{ISO8601} [%t] %-5level %logger{36} - %msg%n" />
     </Console>
-    <Socket name="Alooma" host="rami-dev-i.alooma.io" port="5001" protocol="SSL" immediateFlush="true">
-      <JSONLayout compact="true" eventEol="true" />
-    </Socket>
   </Appenders>
   <Loggers>
-      <Logger name="com.alooma" level="debug" additivity="false">
-      <AppenderRef ref="Alooma" />
-    </Logger>
     <Root level="info">
       <AppenderRef ref="Console" />
     </Root>

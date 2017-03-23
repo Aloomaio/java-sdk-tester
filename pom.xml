@@ -38,6 +38,11 @@
        <artifactId>jackson-jaxrs-json-provider</artifactId>
        <version>${jackson.version}</version>
      </dependency>
+    <dependency>
+      <groupId>com.github.pcj</groupId>
+      <artifactId>google-options</artifactId>
+      <version>1.0.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
